@@ -1,0 +1,107 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+
+    <title>N0FAP TRACK3R</title>
+</head>
+
+<body>
+    <center>
+        <h1><u>N0FAP TRACK3R</u></h1>
+        <p class="tagline"><s>Relapse</s>&nbsp;&nbsp;&nbsp;<<b>Reboot</b>>&nbsp;&nbsp;&nbsp;<s>Retreat</s></p>
+        <h4 id="today-date">MAY 17th</h4>
+        <h2 id="days-count-el">~ DAY 1 ~</h2>
+        <div class="report-box">
+            <h2 id="report-el">Report Status!</h2>
+            <br>
+            <button class="button-30" id="fapped-btn" onclick="fapped()">Slipped 💦</button>&nbsp;&nbsp;
+            <button class="button-30" id="saved-btn" onclick="saved()">Saved 💪</button>
+            <br>
+            <p id="demo" class="countdown-live" style="text-align:center;">Hiya soldier! <br> What happened today?</p>
+            <p id="timeNow"></p>
+
+        </div>
+        <br>
+        <h2 id="percent-el">Hit Ratio 📈: 0.00%</h2>
+        <h5>You HAVE to keep it above 70% !</h5>
+        <br>
+        <br>
+        <table id="tableEl" border="1">
+            <tr>
+                <th style="color: antiquewhite;" colspan="4">Daily Progress 🚧</th>
+            </tr>
+            <tr>
+                <th><b>Day</b></th>
+                <th><b>Date</b></th>
+                <th><b>Status</b></th>
+                <th><b>Percentage</b></th>
+            </tr>
+        </table>
+        <table id="table-count" border="1">
+            <tr>
+                <td>Slips = 0</td>
+                <td>Saves = 0</td>
+            </tr>
+        </table>
+        <br><br>
+        <br>
+
+
+        <div class="modal-container" id="modal-container">
+            <div class="modal">
+                <div class="modal-header">
+                    <h3>A Few Things...👾</h3>
+                    <button id="xBtn" onclick="closeModal()">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <p> <u><b> What do we do? </u></b><br> </p><p>
+                        <b>~</b> We keep track of your daily nofap progress using a <b>percentile</b> system.🤖👨‍💻
+                    </p>
+                    <hr>
+                    <p>
+                        <u><b> How does it work? </b></u><br> </p><p>
+                        <b>~</b> You login every night and enter if you slipped or saved for that day.That easy! 💦🦾<br>
+                    </p>
+                    <p>
+                        <b>~</b> Make sure you <b>DON'T MISS</b> a day, or else we will just assume you slipped that day 😈⚰️
+                    </p>
+                    <hr>
+                    <p>
+                        <u><b> Your Privacy? </b></u><br> </p><p>
+                        <b>~</b> this data <b>NEVER</b> leaves your phone, so don't be shy and be <b>ABSOLUTELY HONEST</b>! 📱🛠️
+                    </p>
+                    <hr>
+                    <p>
+                        If You ever need to read this again, click <b>help()</b> at the bottom.🔄<br>
+                    </p>
+                    
+                </div>
+
+                <button id="close" onclick="closeModal()">LET'S GO!</button>
+            </div>
+        </div>
+
+
+
+
+        <script src="script.js"></script>
+
+</body>
+<footer>
+    <a id="clear" onclick="clr()">clear()</a>
+
+    <a onclick="openModal()">help()</a>
+</footer>
+</center>
+
+</html>
