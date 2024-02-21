@@ -25,7 +25,7 @@ Special thanks to ChatGPT for inspiring and assisting in the development of this
 
 ## Get Started
 
-Ready to take control of your journey? Visit [No Fap Tracker](#your-website-link) and start your tracking today!
+Ready to take control of your journey? Visit [No Fap Tracker](#https://sandeepdas17.github.io/no-fap-tracker/) and start your tracking today!
 
 Feel free to contribute, provide feedback, or report any issues. Let's support each other in this journey towards self-improvement.
 
